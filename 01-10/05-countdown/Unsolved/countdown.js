@@ -6,3 +6,7 @@ var countdown = function (num) {
       console.log(i);
    }
 };
+
+// i = num paramenter
+// when i is greater than 0 subtract 1 from
+// the provided num parameter
