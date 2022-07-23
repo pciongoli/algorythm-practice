@@ -13,3 +13,14 @@ var isPalindrome = function (str) {
       return false;
    }
 };
+
+// Alternate soultion comparing letters in front of string to letters in back of string
+
+// var isPalindrome = function (str) {
+//   for (var i = 0; i < str.length; i++) {
+//     if (str[i] !== str[str.length - 1 - i]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// };
